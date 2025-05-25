@@ -96,23 +96,23 @@ Stelle sicher, dass Java installiert ist. Du brauchst keine zusätzliche Softwar
 
 #### Kompilieren:
 ```bash
-javac Vokale.java
+javac StringTools.java
 ```
 
 #### Ausführen:
 ```bash
-java Vokale
+java StringTools
 ```
 
 #### Kompilieren und Ausführen der Tests
-
-> [!NOTE]
-> Bei Windows bitte `:` durch `;` ersetzen.
 
 ```bash
 javac -cp "lib/junit-4.13.1.jar" StringTools.java StringToolsTest.java
 java -cp ".:lib/junit-4.13.1.jar:lib/hamcrest-core-1.3.jar" org.junit.runner.JUnitCore StringToolsTest
 ```
+
+> [!NOTE]
+> Unter Windows `:` durch `;` im Classpath ersetzen.
 
 ### Mit IDE
 
